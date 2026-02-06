@@ -2,8 +2,8 @@
 This project is a **custom terminal-based text editor** built using a **2D Doubly Linked List** for the main editing area.  
 It integrates two distinct tree structures to provide a modern typing experience:
 
-- **N-ary Tree** → Dictionary-based word lookup & autocomplete  
-- **ChilliMilli Tree** → Phrase-based sentence prediction  
+- **N-ary Tree** → Dictionary based word lookup & autocomplete  
+- **ChilliMilli Tree** → Phrase based sentence prediction  
 
 The goal is to achieve **low-latency editing**, efficient memory usage, and intelligent text suggestions inside a console environment.
 
