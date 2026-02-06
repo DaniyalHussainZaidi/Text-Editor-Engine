@@ -11,7 +11,7 @@ The goal is to achieve **low-latency editing**, efficient memory usage, and inte
 
 # Core Data Structures
 
-## 1. 2D Doubly Linked List — *The Editor Grid*
+## 1. 4D Doubly Linked List — *The Editor Grid*
 The editor does not rely on a simple string buffer.  
 Instead, **each character is a `Node`** containing pointers to its neighbors:
 
