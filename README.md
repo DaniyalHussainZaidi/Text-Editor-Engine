@@ -25,9 +25,9 @@ Instead, **each character is a `Node`** containing pointers to its neighbors:
 - Avoids costly shifting operations seen in arrays or vectors.
 
 ### Features
-- Multi-line navigation support.
+- Multi line navigation support.
 - Dynamic color rendering for highlighted search results.
-- Real-time cursor repositioning.
+- Real time cursor repositioning.
 
 ---
 
@@ -35,7 +35,7 @@ Instead, **each character is a `Node`** containing pointers to its neighbors:
 Used for managing the document vocabulary and powering search/suggestion features.
 
 ### Representation
-Implemented using a **First-Child / Next-Sibling** structure.
+Implemented using a **First Child / Next-Sibling** structure.
 
 ### Functionality
 - Word suggestion
@@ -50,7 +50,7 @@ Implemented using a **First-Child / Next-Sibling** structure.
 ---
 
 ## 3. ChilliMilli Tree — *Sentence / Phrase Suggestion*
-A hierarchical **word-sequence prediction tree** designed to suggest the next likely word.
+A hierarchical **word sequence prediction tree** designed to suggest the next likely word.
 
 ### Logic
 - Maps sequences of words.
@@ -120,8 +120,8 @@ When a key is pressed:
 ---
 
 # Highlights
-- Low-latency editing engine
+- Low latency editing engine
 - Custom memory management
 - Intelligent autocomplete & prediction
-- Console-based UI rendering
+- Console based UI rendering
 - Educational demonstration of advanced data structures
